@@ -33,7 +33,7 @@ def search(start: node, end: node):
   if start == end:
     return 0
 
-  while True:
+  while queue:
     curr = queue.pop(0)
     cur_x = curr.x
     cur_y = curr.y
