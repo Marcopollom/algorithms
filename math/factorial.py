@@ -2,7 +2,7 @@
 of a factorial of a given number
 """
 
-def nthLastDigit(n, numb_of_digits): 
+def nthLastDigit(n: int, numb_of_digits: int): 
     
     a = [i for i in range(1, n + 1)]
     length = len(a)
