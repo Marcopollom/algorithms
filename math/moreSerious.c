@@ -45,7 +45,9 @@ int nthLastDigit(int l, int nthLD)
 
     if(countFive != 0)
       ans = (ans * 5) % 10;
-    
+
+    free(lst);
+
     if(ans != 0)
       return ans;
 
