@@ -37,9 +37,6 @@ int main(int argc, char** argv)
     int t2 = getNumFlips();
     int t3 = getNumFlips();
 
-    time_t t;
-    srand((unsigned) time(&t)); // Seeds RNG
-
     double prob1, prob2, prob3;
 
     prob1 = calProbability(t1);
